@@ -1,0 +1,142 @@
+@media only screen and (max-width: 767px) {
+  .main {
+    height: 90vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #loader img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .about-m-margin {
+    margin-top: 8vh;
+  }
+  .classfinal {
+    margin-top: 0;
+    background: black;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px;
+    padding: 10px 10px 5px 10px;
+  }
+  .onlyIndex {
+    padding: 40px 10px 5px 10px;
+  }
+  .classfinal h1 {
+    color: #ffffff;
+  }
+  .button-o {
+    width: 100px;
+    height: 35px;
+  }
+  .button-o .btn {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    font-size: 0.6em;
+  }
+  .button-oo .btn {
+    width: 120px;
+    height: 35px;
+    font-size: 0.6em;
+  }
+  .carousel {
+    margin-top: 10vh;
+    height: 100vh;
+  }
+  .carousel .data-head {
+    z-index: 5;
+    position: absolute;
+    width: 80%;
+    top: 30vh;
+    right: 10%;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px -3px 8px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6);
+  }
+  .carousel2 .data-head {
+    left: 10%;
+  }
+  .carousel2 .data-head {
+    position: absolute;
+    width: 80%;
+    top: -10vh;
+    right: 10%;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px -3px 8px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6);
+  }
+  .carousel .data-head h1 {
+    font-size: 2em;
+  }
+
+  .carousel .data-head h2 {
+    font-size: 1.8em;
+  }
+  .carousel2 p {
+    font-size: 0.7em;
+  }
+  .products {
+    margin-top: 0vh;
+  }
+  .products .product {
+    margin-bottom: 5vh;
+  }
+  .products h1 {
+    font-size: 2.5em;
+  }
+  .products .content-head h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .products .content-head p {
+    font-size: 1em;
+  }
+  .products .subhead {
+    font-size: 0.8em;
+  }
+  .product .content-head {
+    padding: 20px;
+  }
+  .products .btn {
+    height: 38px;
+    font-size: 0.8em;
+  }
+  .about-m-head h1 {
+    font-size: 3em;
+  }
+
+  .about-m-base h1 {
+    font-size: 1.5em;
+  }
+
+  .main-about {
+    padding-bottom: 15vh;
+  }
+  .main-about .data-head h2 {
+    font-size: 2em;
+  }
+  .our-success .head {
+    font-size: 1.5em;
+  }
+  .management h1 {
+    font-size: 2.3em;
+    margin-bottom: 10vh;
+  }
+  .management .card {
+    margin-top: 15vh;
+  }
+  .map h1 {
+    font-size: 3em;
+  }
+  .lightImg {
+    width: 100%;
+  }
+}
